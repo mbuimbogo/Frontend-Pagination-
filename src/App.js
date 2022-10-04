@@ -21,18 +21,21 @@ function App() {
     fetchPosts();
   },[]);
 
+  // console.log(posts);
+
   //Getting current post
 const indexOfLastPost = currentPage*postsPerPage;
 const indexOfFirstPost = indexOfLastPost - postsPerPage;
 const currentPosts = posts.slice(indexOfFirstPost,indexOfLastPost)
 
-  
-  // console.log(posts);
+//Change page
+const paginate = (pageNumber) => setCurrentPage(pageNumber)  
+
   return(
     <div className='container mt-5'>
       <h1 className='text-primary mb-3'>My Blog</h1>
       <Posts posts={currentPosts} loading={loading}/>
-      <Pagination totalPosts={posts.length} postsPerPage={postsPerPage}/>
+      <Pagination totalPosts={posts.length} postsPerPage={postsPerPage} paginate={paginate}/>
     </div>
   ) ;
 }
