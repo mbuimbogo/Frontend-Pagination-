@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+
 const linkStyles = {
     display: "inline-block",
     float: "right",
@@ -13,8 +14,10 @@ const linkStyles = {
 }
 
 const Navbar = () => {
+
   return (
     <div>
+        
          <NavLink to="/login"
         exact style={linkStyles}
         activeStyle = {{background: "darkblue",}}>
