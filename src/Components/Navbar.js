@@ -11,31 +11,30 @@ const linkStyles = {
     background: "blue",
     TextDecoration: "none",
     color: "white",
+   
 }
 
 const Navbar = () => {
 
   return (
     <div>
-        
          <NavLink to="/login"
         exact style={linkStyles}
-        activeStyle = {{background: "darkblue",}}>
+        activeStyle={{background: "darkblue",}}>
             Login
         </NavLink>
 
-       <NavLink to= "/about"
+        <NavLink to= "/about"
         exact style={linkStyles}
         activeStyle={{background: "darkblue",}}>
         About
         </NavLink>
 
-        <NavLink to="/"
+         <NavLink to="/"
         exact style={linkStyles}
-        activeStyle={{background: "darkblue",}}>
+        activeStyle = {{background: "darkblue",}}>
             Home
-        </NavLink>
-
+        </NavLink>   
        
     </div>
   )
