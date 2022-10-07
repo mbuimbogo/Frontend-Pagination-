@@ -8,8 +8,9 @@ This is a frontend application displaying blogs which has employed the concept o
  2. Technologies Used
  3. Dependancies
  4. Setup Instructions
- 5. License
- 6. Project Owner
+ 5. Live link
+ 6. License
+ 7. Project Owner
 
 
 ### Objectives achieved
@@ -37,6 +38,9 @@ Since the project uses React, you will need to set up node, which will enable yo
 3. Run npm install to install all required modules
 4. Open another terminal in the same directory and run npm run server
 5. You can make modifications as you are set and can see the files and their effect on the page opened in the browser when you clicked npm start
+
+### Live link
+ Click this [link](https://pagination-appp.herokuapp.com/)
 
 ### License
 
