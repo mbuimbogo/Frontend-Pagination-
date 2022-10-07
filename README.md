@@ -1,7 +1,7 @@
 # Pagination App
 
 ## Brief Description
-This is a frontend application displaying blogs which has employed the concept of pagination to display them on the same page. 
+This is a frontend application displaying blogs which has employed the concept of pagination to display the blogs on the same page. 
 
 ## Table of Contents
  1. Objectives achieved
