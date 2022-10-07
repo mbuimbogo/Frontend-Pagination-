@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Pagination App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Brief Description
+This is a frontend application displaying blogs which has employed the concept of pagination to display them on the same page. 
 
-## Available Scripts
+## Table of Contents
+ 1. Objectives achieved
+ 2. Technologies Used
+ 3. Dependancies
+ 4. Setup Instructions
+ 5. License
+ 6. Project Owner
 
-In the project directory, you can run:
 
-### `npm start`
+### Objectives achieved
+1. Build an application using React components.
+2. Use props to pass down objects from parent to child  components
+3. Use React hooks to make an interactive app.
+    - useEffect used to fetch data from an API
+    - useHistory used to direct client from login to   home page
+    - useState used to setstate
+4. Build an app with Client-Side Routing from react-router-dom to help navigating to different pages.
+5. Successfully incorporated Reacts event handling for interactivity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Built with HTML, Bootstrap, JavaScript and React
 
-### `npm test`
+### Dependancies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Since the project uses React, you will need to set up node, which will enable you to run commands such as npm start to get the project running in your browser.
 
-### `npm run build`
+### Setup instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo to get it locally on your computer. You can also fork the repo and get your own copy that you can clone
+2. Navigate to the relevant directory and open it with your preferred editor
+3. Run npm install to install all required modules
+4. Open another terminal in the same directory and run npm run server
+5. You can make modifications as you are set and can see the files and their effect on the page opened in the browser when you clicked npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+MIT License
 
-### `npm run eject`
+Copyright (c) 2022 mbuimbogo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Project Owner
+Name: Mbui Mbogo
+email: [email]( mbuimbogo99@gmail.com)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

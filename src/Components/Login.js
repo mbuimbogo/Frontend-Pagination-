@@ -22,11 +22,7 @@ function handleSubmit(e) {
   return (
     <div className='container ml-3 mt-4'>
         <h1 className='text-primary mb-3'>Login</h1>
-        {/* <form onSubmit={handleSubmit}> 
-        <input type="text" name="username" value={formData.username} onChange={handleChange}/>
-        <input type="password" name="password" value= {formData.password} onChange={handleChange} />
-        <button type="submit" className='btn btn-primary btn-sm'>Login</button>
-        </form> */}
+        
         <form onSubmit={handleSubmit}>
   <div className="mb-3">
     <label  className="form-label">Email address</label>
