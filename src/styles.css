@@ -1,0 +1,16 @@
+#root{
+    height: 100%
+}
+
+.light-mode{
+    color: #333;
+    height: 100%;
+    background-color: #fff;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.dark-mode{
+    color: #999;
+    height: 100%;
+    background-color: #1a1919;
+}

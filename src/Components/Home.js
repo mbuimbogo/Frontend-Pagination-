@@ -2,6 +2,7 @@ import React from 'react'
 import Posts from './Posts';
 import { useState, useEffect } from 'react';
 import Pagination from './Pagination';
+
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 
@@ -40,6 +41,7 @@ if(!isLoggedIn) return <Redirect to = "/login" />
     <h1 className='text-primary mb-3'>My Blogs</h1>
     <Posts posts={currentPosts} loading={loading}/>
     <Pagination totalPosts={posts.length} postsPerPage={postsPerPage} paginate={paginate}/>
+   
     <div className="card text-center">
   <div className="card-header">
     Featured
@@ -47,7 +49,7 @@ if(!isLoggedIn) return <Redirect to = "/login" />
   <div className="card-body">
     <h5 className="card-title">~Cory Doctorow~ </h5>
     <p className="card-text">Conversation is king. Content is just something to talk about.</p>
-    <a href="/about" className="btn btn-primary">Go somewhere</a>
+    <a href="about" className="btn btn-primary">See more</a>
   </div>
   <div className="card-footer text-muted">
   Adios!
